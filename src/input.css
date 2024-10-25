@@ -5,3 +5,11 @@
 body {
   @apply font-['Poppins'] text-bite-black;
 }
+
+aside {
+  scrollbar-width: none; /* Firefox */
+}
+
+aside::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
